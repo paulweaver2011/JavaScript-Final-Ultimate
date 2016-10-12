@@ -48,7 +48,26 @@ guard = new Antagonist;
 rat = new Antagonist;
 tavernWench = new Antagonist;
 
-/*
+player1.name = "Lag";
+
+alert("You grasp at the swirling bits inside your head for any memory of who and what you are... Can you tell me your name?");
+        prompt() = "";
+            player1.name = "Lag";
+                alert("Doesn't matter... Let's call you Lag.")
+
+player1.weapon = prompt("In the darkness, you brush against something hard and wet. It's a stone. A weapon would be useful. Will you take it? Yes or no?")
+
+//Player name if/else statement
+if (player1.name) {
+    player1.name = "Lag";
+    alert("You grasp at the swirling bits inside your head for any memory of who and what you are... Can you tell me your name?");
+        prompt() = "";
+            alert("Doesn't matter... Let's call you Lag.")
+} else {
+    alert("Face kick!");
+    alert("You are thrust across the room by a violent kick to the face.");
+}
+
 function CheckPlayerName () {
     switch (player1.name) {
         case 1:
@@ -72,27 +91,6 @@ function CheckPlayerName () {
             alert("");
             break;
     }
-}
-*/
-
-player1.name = "Lag";
-
-alert("You grasp at the swirling bits inside your head for any memory of who and what you are... Can you tell me your name?");
-        prompt() = "";
-            player1.name = "Lag";
-                alert("Doesn't matter... Let's call you Lag.")
-
-player1.weapon = prompt("In the darkness, you brush against something hard and wet. It's a stone. A weapon would be useful. Will you take it? Yes or no?")
-
-//Player name if/else statement
-if (player1.name) {
-    player1.name = "Lag";
-    alert("You grasp at the swirling bits inside your head for any memory of who and what you are... Can you tell me your name?");
-        prompt() = "";
-            alert("Doesn't matter... Let's call you Lag.")
-} else {
-    alert("Face kick!");
-    alert("You are thrust across the room by a violent kick to the face.");
 }
 
 
